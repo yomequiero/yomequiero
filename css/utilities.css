@@ -135,16 +135,22 @@
 	position: relative;
 }
 
-@media only screen and (min-width: 768px) {
-	.container-sm {
-	    width: 748px;
+.container-sm {
+    width: 748px;
+    padding-left: 14px;
+    padding-right: 14px;
+    margin: 0 auto;
+}
+.font-montserrat {
+	font-family: 'Montserrat', sans-serif;
+	color: #4A4A4A;
+}
+
+@media only screen and (max-width: 480px) {
+	.container-xs, .container-sm, .container-md {
+	    width: 100%;
 	    padding-left: 14px;
 	    padding-right: 14px;
 	    margin: 0 auto;
 	}
-}
-
-.font-montserrat {
-	font-family: 'Montserrat', sans-serif;
-	color: #4A4A4A;
 }

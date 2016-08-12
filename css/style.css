@@ -49,21 +49,21 @@ header {
 	color: white !important;
 }
 
-#news .box-news {
+.box-news {
 	background: url(../img/cipriano.png);
 	height: 400px;
 	padding: 14px;
 	margin-top: -129px;
 }
 
-#news .box-news-2 {
+.box-news-2 {
 	background: url(../img/noticia3.png);
 	height: 400px;
 	padding: 14px;
 	margin-top: -129px;
 }
 
-#news .box-news-3 {
+.box-news-3 {
 	background: url(../img/noticia2.png);
 	height: 400px;
 	padding: 14px;
@@ -140,3 +140,33 @@ header {
 	background: #E84C3D;
 }
 
+@media only screen and (max-width: 480px) {
+	.box-news, .box-news-2, .box-news-3 {
+		margin-top: 14px; 
+	}
+
+	iframe {
+		width: 100%;
+	}
+
+	.mb-21-xs {
+		margin-bottom: 21px;
+	}
+
+	.text-center-xs {
+		text-align: center;
+	}
+
+	.p-0-xs {
+		padding: 7px 0px;
+	}
+	.navbar-collapse.in {
+	    padding: 140px 14px 14px 14px;
+    	background: rgb(238, 238, 238);
+	}
+
+	.btn-denuncia {
+		display: inline-block !important;
+    	margin-left: 14px;
+	}
+}
